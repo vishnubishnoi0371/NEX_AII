@@ -16,24 +16,24 @@ let Next = document.querySelector(".Next");
 let Token = document.querySelector(".Token");
 let myBtn = document.querySelector(".myBtn");
 
+let mybutton = document.getElementById("myBtn");
 window.onscroll = function () {
   scrollFunction();
 };
+
 function scrollFunction() {
-  if (
-    document.body.scrollTop > 100 ||
-    document.documentElement.scrollTop > 100
-  ) {
-    myBtn.style.display = "block";
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
   } else {
-    myBtn.style.display = "none";
+    mybutton.style.display = "none";
   }
 }
 
-myBtn.addEventListener("click", function () {
+function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
-});
+}
+
 
 menuicon.addEventListener("click", function () {
   if (a.classList !== document.querySelector("fix-lft")) {

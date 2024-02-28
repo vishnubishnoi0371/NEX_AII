@@ -52,9 +52,7 @@
 .mw-997 {
   max-width: 997px;
 }
-.max-h-532 {
-  max-height: 532px;
-}
+
 .max-w-1346 {
   max-width: 1346px !important;
 }
@@ -93,8 +91,8 @@
 /* preloader */
 .spinner {
   background-image: linear-gradient(rgb(186, 66, 255) 35%, rgb(0, 225, 255));
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   animation: spinning82341 1.7s linear infinite;
   text-align: center;
   border-radius: 50px;
@@ -105,8 +103,8 @@
 
 .spinner1 {
   background-color: rgb(36, 36, 36);
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   border-radius: 50px;
   filter: blur(10px);
 }
@@ -138,6 +136,7 @@
 .flow-hidden {
   overflow: hidden;
 }
+
 .cross-5 {
   transition: 0.4s;
 }
@@ -191,12 +190,12 @@ nav ul li a:hover::before {
 }
 .scroll_crd {
   padding: 16px 18px 14px 18px;
-  width: 100%;
+
   border: 1px solid #fcfcfc66;
   background: white;
   border-radius: 16px;
   max-width: 364px;
-  max-height: 410px;
+  max-height: 490px;
 }
 /* nav-hv */
 .nav_hv {
@@ -288,7 +287,7 @@ nav ul li a:hover::before {
 
 .bg_hexa {
   background-image: url("../images/hexagonn.webp") !important;
-  background-size: 100% 100% !important;
+  background-size: 80% 80% !important;
   background-repeat: no-repeat;
   background-position: center;
   width: 350px;
@@ -387,13 +386,13 @@ nav ul li a:hover::before {
 }
 .ai_ellp_1 {
   left: 0%;
-  bottom: 0;
+  top: 0;
   position: absolute;
   width: 350.224px;
   z-index: 5;
   height: 330.428px;
   border-radius: 416.224px;
-  opacity: 0.4;
+  opacity: 0.22;
   background: var(--sky);
   filter: blur(100px);
 }
@@ -408,10 +407,27 @@ nav ul li a:hover::before {
   z-index: 5;
   height: 330.428px;
   border-radius: 416.224px;
-  opacity: 0.4;
+  opacity: 0.22;
   background: var(--sky);
   filter: blur(100px);
 }
+
+.ps_ul {
+  padding-inline-start: 0 !important;
+}
+.ai_ellp_3 {
+  right: 40%;
+  bottom: 3%;
+  position: absolute;
+  width: 450.224px;
+  z-index: 5;
+  height: 430.428px;
+  border-radius: 416.224px;
+  opacity: 0.22;
+  background: var(--sky);
+  filter: blur(100px);
+}
+
 .ellp_1 {
   right: 0;
   top: 19%;
@@ -447,7 +463,7 @@ nav ul li a:hover::before {
 }
 .talk_ep_2 {
   right: 0;
-  top: 15%;
+  top: 40%;
   position: absolute;
   width: 190.224px;
   height: 190.428px;
@@ -546,14 +562,18 @@ nav ul li a:hover::before {
   padding-top: 60px;
 }
 .myBtn {
-  bottom: 10px;
+  display: none;
+  position: fixed;
+  bottom: 2%;
   right: 2%;
-  width: 35px;
-  border-radius: 50%;
-  background: var(--sky);
-  border: 1px solid transparent;
-  height: 35px;
-  z-index: 1;
+  z-index: 7;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 43px;
+  height: 43px;
+  border-radius: 100%;
+
   --tw-shadow: inset 18rem /* 288px */ 0 0 0 #02cdcf;
   --tw-shadow-colored: inset 18rem /* 288px */ 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
@@ -561,12 +581,7 @@ nav ul li a:hover::before {
 
   transition: all 500ms linear;
 }
-.myBtn:hover {
-  --tw-shadow: inset 0 0 0 0;
-  --tw-shadow-colored: inset 0 0 0 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
+
 .mb_4 {
   margin-bottom: 0 !important;
 }
@@ -605,7 +620,7 @@ nav ul li a:hover::before {
   display: none;
 }
 .z_22 {
-  z-index: 220;
+  z-index: 22;
 }
 .ff-rec {
   font-family: "Recharge", sans-serif;
@@ -613,13 +628,17 @@ nav ul li a:hover::before {
 .opacity-7 {
   opacity: 0.7 !important;
 }
-.crd_hover{
-  transition:  all 500ms linear;
+.crd_hover {
+  transition: all 500ms linear;
+}
+.mt-30 {
+  margin-top: 10px;
 }
 .crd_hover:hover {
-  --tw-shadow: 0px 4px 20px 0px rgba(2, 205, 207, 1);;
+  --tw-shadow: 0px 4px 20px 0px rgba(2, 205, 207, 1);
   --tw-shadow-colored: 0px 4px 20px 0px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .mb_15 {
   margin-bottom: 15px;
@@ -640,13 +659,18 @@ nav ul li a:hover::before {
   src: url(../font/recharge/recharge\ bd.otf);
 }
 @media (max-width: 991.7px) {
+  .pt_15 {
+    padding-top: 15px;
+  }
+  .pt_40 {
+    padding-top: 40px;
+  }
   label[id="menuIcon"] {
     width: 30px;
     height: 24px;
     cursor: pointer;
-
     display: flex;
-    position: absolute;
+    position: absolute !important;
     right: 4%;
     top: 7%;
     justify-content: space-between;
@@ -668,10 +692,11 @@ nav ul li a:hover::before {
     align-items: center;
     top: 0;
     left: -100%;
-    position: fixed;
+    z-index: 15;
+    position: fixed !important;
     opacity: 1;
     width: 100%;
-    max-width: 400px;
+    /* max-width: 400px; */
     height: 100%;
     background: #042122;
     box-shadow: 0px 0px 19px 9px rgba(0, 0, 0, 0.1);
@@ -681,6 +706,12 @@ nav ul li a:hover::before {
   .fix-lft {
     left: 0;
   }
+}
+.max-h-500 {
+  max-height: 480px;
+}
+.mb_4 {
+  margin-bottom: 8px !important;
 }
 @keyframes preloder1 {
   0% {
@@ -760,6 +791,18 @@ nav ul li a:hover::before {
   }
 }
 @media (min-width: 768px) {
+  .bg_hexa {
+    background-size: 100% 100% !important;
+  }
+  .spinner {
+    width: 100px;
+    height: 100px;
+  }
+
+  .spinner1 {
+    width: 100px;
+    height: 100px;
+  }
   .myBtn {
     width: 50px;
 
@@ -887,15 +930,36 @@ nav ul li a:hover::before {
   .lh-lg-76 {
     line-height: 75.6px;
   }
+  .pt-105 {
+    margin-top: 100px;
+  }
 
   .crd_gap {
-    gap: 150px;
+    gap: 60px;
   }
   .mt_150 {
-    margin-top: 170px;
+    margin-top: 190px;
+  }
+  .mw-356 {
+    max-width: 356px;
+  }
+  .min-h-492 {
+    min-height: 492px;
+  }
+  .pt-100 {
+    padding-top: 100px;
+  }
+  .overflow_hidden {
+    overflow: hidden;
   }
 }
 @media (min-width: 992px) {
+  .crd_gap {
+    gap: 150px;
+  }
+  .ms_12 {
+    padding-right: 18px;
+  }
   .pb-100 {
     padding-bottom: 100px;
   }
@@ -918,8 +982,8 @@ nav ul li a:hover::before {
     padding-bottom: 60px;
   }
   .scroll_px {
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .ms_auto {
     margin-inline-start: auto !important;
@@ -941,6 +1005,10 @@ nav ul li a:hover::before {
   }
 }
 @media (min-width: 1024px) {
+  .pt-105 {
+    margin-top: 10px;
+  }
+
   .gap_timeline {
     gap: 60px;
   }
@@ -953,8 +1021,15 @@ nav ul li a:hover::before {
   }
 }
 @media (min-width: 1200px) {
+  .ps_ul {
+    padding-inline-start: 30px !important;
+  }
   .xl-ps-0 {
     padding-inline-start: 0;
+  }
+  .scroll_px {
+    padding-left: 90px;
+    padding-right: 90px;
   }
   .gap_timeline {
     gap: 60px;

@@ -484,7 +484,7 @@ nav ul li a:hover::before {
   filter: blur(100px);
 }
 .time_ep_1 {
-  right: 0;
+  right: 0%;
   top: 42%;
   position: absolute;
   width: 330.224px;
@@ -514,8 +514,8 @@ nav ul li a:hover::before {
   border-radius: 50%;
 }
 .hexa_ep_2 {
-  right: 0;
-  top: -5%;
+  right: -8%;
+  top: 5%;
   position: absolute;
   width: 330.224px;
   height: 330.428px;
@@ -525,11 +525,11 @@ nav ul li a:hover::before {
   filter: blur(100px);
 }
 .nexa_ep_2 {
-  right: 0;
-  top: -5%;
+  right: -6%;
+  top: 4%;
   position: absolute;
-  width: 330.224px;
-  height: 330.428px;
+  width: 230.224px;
+  height: 230.428px;
   border-radius: 416.224px;
   opacity: 0.2;
   background: var(--sky);

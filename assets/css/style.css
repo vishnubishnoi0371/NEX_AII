@@ -713,6 +713,9 @@ nav ul li a:hover::before {
 .mb_4 {
   margin-bottom: 8px !important;
 }
+.min-vh_100 {
+  min-height: 100vh !important;
+}
 @keyframes preloder1 {
   0% {
     transform: scale(1.1);
@@ -1049,5 +1052,14 @@ nav ul li a:hover::before {
   .px-45 {
     padding-left: 45px;
     padding-right: 45px;
+  }
+}
+@media (min-width: 1540px) {
+  .min-vh_100 {
+    min-height: 65vh !important;
+  }
+  .pt_45 {
+    padding-top: 45px;
+    margin-top: 45px;
   }
 }

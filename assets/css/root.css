@@ -9,11 +9,11 @@
 
   /* font-size */
   --fs-14: 12px;
-  --fs-16: 14px;
+  --fs-16: 13px;
   --fs-18: 16px;
   --fs-60: 35px;
-  --fs-20: 15px;
-  --fs-24: 16px;
+  --fs-20: 14px;
+  --fs-24: 15px;
   --fs-32: 24px;
   --fs-40: 28px;
 }
@@ -68,7 +68,6 @@
 }
 @media (min-width: 576px) {
   :root {
-  
     /* font-size */
     --fs-14: 14px;
     --fs-16: 16px;
@@ -82,8 +81,6 @@
 }
 @media (min-width: 992px) {
   :root {
-   
-
     /* font-size */
     --fs-14: 14px;
     --fs-16: 16px;

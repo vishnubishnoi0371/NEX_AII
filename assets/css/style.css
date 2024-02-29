@@ -90,7 +90,7 @@
 }
 /* preloader */
 .spinner {
-  background-image: linear-gradient(rgb(186, 66, 255) 35%, rgb(0, 225, 255));
+  background-image: linear-gradient(#fff, rgb(0, 225, 255));
   width: 60px;
   height: 60px;
   animation: spinning82341 1.7s linear infinite;
@@ -463,8 +463,9 @@ nav ul li a:hover::before {
 }
 .talk_ep_2 {
   right: 0;
-  top: 40%;
+  bottom: -10%;
   position: absolute;
+  z-index: -1;
   width: 190.224px;
   height: 190.428px;
   border-radius: 416.224px;
@@ -543,14 +544,13 @@ nav ul li a:hover::before {
   font-weight: bold;
   padding: 14px 18px 14px 18px !important;
   border: 1px solid #02cdcf;
-  --tw-shadow: inset 18rem /* 288px */ 0 0 0 #02cdcf;
-  --tw-shadow-colored: inset 18rem /* 288px */ 0 0 0 var(--tw-shadow-color);
+  --tw-shadow: inset 18rem  0 0 0 #02cdcf;
+  --tw-shadow-colored: inset 18rem  0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #fff),
     var(--tw-ring-shadow, 0 0 #fff), var(--tw-shadow);
 
   transition: all 500ms linear;
-  /* width: 153px;
-  height: 58px; */
+
 }
 .main_btn:hover {
   --tw-shadow: inset 0 0 0 0;
@@ -559,7 +559,7 @@ nav ul li a:hover::before {
     var(--tw-ring-shadow, 0 0 #fff), var(--tw-shadow);
 }
 .hero_pt {
-  padding-top: 60px;
+  padding-top: 90px;
 }
 .myBtn {
   display: none;
@@ -574,8 +574,8 @@ nav ul li a:hover::before {
   height: 43px;
   border-radius: 100%;
 
-  --tw-shadow: inset 18rem /* 288px */ 0 0 0 #02cdcf;
-  --tw-shadow-colored: inset 18rem /* 288px */ 0 0 0 var(--tw-shadow-color);
+  --tw-shadow: inset 18rem  0 0 0 #02cdcf;
+  --tw-shadow-colored: inset 18rem  0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 
@@ -757,7 +757,7 @@ nav ul li a:hover::before {
   .time_line {
     width: 1px;
     padding: 2px;
-    height: 1260px;
+    height: 1240px;
     border-radius: 10px;
     background: var(--sky);
     opacity: 1 !important;
@@ -840,7 +840,7 @@ nav ul li a:hover::before {
   }
 
   .time_line {
-    height: 1980px;
+    height: 1999px;
   }
 
   .scroll_crd {

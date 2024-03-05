@@ -40,25 +40,3 @@ menuicon.addEventListener("click", function () {
     flow.classList.toggle("flow-hidden");
   }
 });
-
-Home.addEventListener("click", function () {
-  a.classList.toggle("fix-lft");
-  flow.classList.remove("flow-hidden");
-});
-Market.addEventListener("click", function () {
-  a.classList.remove("fix-lft");
-  flow.classList.remove("flow-hidden");
-});
-About.addEventListener("click", function () {
-  a.classList.remove("fix-lft");
-  flow.classList.remove("flow-hidden");
-});
-
-Next.addEventListener("click", function () {
-  a.classList.remove("fix-lft");
-  flow.classList.remove("flow-hidden");
-});
-Token.addEventListener("click", function () {
-  a.classList.remove("fix-lft");
-  flow.classList.remove("flow-hidden");
-});

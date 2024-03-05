@@ -91,15 +91,7 @@
 .lh_63 {
   line-height: 63px;
 }
-.lh_83 {
-  line-height: 83.2px;
-}
-.lh_35 {
-  line-height: 35px;
-}
-.lh_100 {
-  line-height: 100px;
-}
+
 .opacity_1 {
   opacity: 1 !important;
 }
@@ -156,8 +148,8 @@
   background-position: left;
 }
 .app_btn {
-  width: 180px;
-  height: 54px;
+  width: 150px;
+  height: 48px;
 }
 /* sec-1 */
 .faq_epp {
@@ -386,7 +378,7 @@ ul {
   right: 0;
 }
 .teer_animate {
-  animation: rotate2 4s linear infinite; 
+  animation: rotate2 4s linear infinite;
 }
 
 .cross-4 {
@@ -464,7 +456,7 @@ ul {
   }
 }
 .star_animate {
-  animation: rotate 4s linear infinite; 
+  animation: rotate 4s linear infinite;
 }
 @keyframes rotate {
   0% {
@@ -597,7 +589,7 @@ nav ul li a:hover::before {
   top: -6%;
   background-color: #63939e;
   border-radius: 50%;
-  animation: rotate 2s linear infinite; 
+  animation: rotate 2s linear infinite;
 }
 .icon_circle2 {
   display: flex;
@@ -609,7 +601,7 @@ nav ul li a:hover::before {
   bottom: 11%;
   background-color: #63939e;
   border-radius: 50%;
-  animation: rotate 2s linear infinite; 
+  animation: rotate 2s linear infinite;
 }
 .icon_circle3 {
   display: flex;
@@ -621,7 +613,7 @@ nav ul li a:hover::before {
   bottom: 29%;
   background-color: #4a9ecc;
   border-radius: 50%;
-  animation: rotate 2s linear infinite; 
+  animation: rotate 2s linear infinite;
 }
 .icon_circle4 {
   display: flex;
@@ -633,9 +625,28 @@ nav ul li a:hover::before {
   bottom: 48%;
   background-color: #4a9ecc;
   border-radius: 50%;
-  animation: rotate 2s linear infinite; 
+  animation: rotate 2s linear infinite;
+}
+.bottle_w {
+  max-width: 60%;
 }
 @media (min-width: 576px) {
+  .bottle_w {
+    max-width: 100%;
+  }
+  .app_btn {
+    width: 180px;
+    height: 54px;
+  }
+  .lh_83 {
+    line-height: 83.2px;
+  }
+  .lh_35 {
+    line-height: 35px;
+  }
+  .lh_100 {
+    line-height: 100px;
+  }
   .pb_80 {
     padding-bottom: 80px;
   }
